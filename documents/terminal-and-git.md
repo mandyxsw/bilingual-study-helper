@@ -106,6 +106,8 @@ git add .
 ```
 
 📌 Effect:
+- add = 把文件交给 Git 管理
+- . = 当前目录全部文件
 - 文件进入“准备提交（staging area）”状态
 
 ---
