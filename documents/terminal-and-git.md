@@ -146,6 +146,81 @@ initialize project structure
 
 ---
 
+## 🔗 What is Remote?
+
+👉 A remote repository is a version of your project hosted online (e.g., GitHub).
+
+---
+
+## git remote add origin
+
+👉 Connect your local repository to GitHub
+
+```bash
+git remote add origin https://github.com/username/project.git
+```
+---
+
+## git remote -v
+
+👉 Check current remote connections
+
+📌 Example output:
+
+origin  https://github.com/username/project.git (fetch)
+origin  https://github.com/username/project.git (push)
+
+📌 Meaning:
+
+origin = remote name
+(fetch) = used when pulling data
+(push) = used when sending data
+
+---
+
+## git fetch
+
+👉 Download data from remote repository
+
+📌 Effect:
+
+Retrieves updates from GitHub
+Does NOT change your current files
+
+📌 Analogy:
+👉 "Check what's new, but don't apply changes"
+
+---
+
+## git pull
+
+👉 Download AND merge remote changes into your local project
+
+📌 Effect:
+
+Fetch + Merge
+Your local files will update
+
+📌 Analogy:
+👉 "Get updates and apply them"
+
+---
+
+## git push
+
+👉 Upload local changes to GitHub
+
+git push origin main
+
+📌 Effect:
+
+Sends your commits to remote repository
+
+📌 Analogy:
+👉 "Upload your work"
+
+---
+
 # ⚙️ Node.js & npm
 
 ## Node.js
